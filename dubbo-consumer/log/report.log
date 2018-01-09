@@ -1,0 +1,882 @@
+[DEBUG]_2018-01-09 14:46:36 :Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG]_2018-01-09 14:46:36 :Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG]_2018-01-09 14:46:36 :Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[INFO ]_2018-01-09 14:46:36 :Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@606d8acf: startup date [Tue Jan 09 14:46:36 CST 2018]; root of context hierarchy
+[DEBUG]_2018-01-09 14:46:36 :Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG]_2018-01-09 14:46:36 :Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG]_2018-01-09 14:46:36 :Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[INFO ]_2018-01-09 14:46:36 :Loading XML bean definitions from class path resource [consumer.xml]
+[DEBUG]_2018-01-09 14:46:36 :Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[DEBUG]_2018-01-09 14:46:36 :Loading schema mappings from [META-INF/spring.schemas]
+[DEBUG]_2018-01-09 14:46:36 :Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/cache/spring-cache-4.2.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-4.2.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.0.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/task/spring-task-4.2.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-4.2.xsd=org/springframework/transaction/config/spring-tx-4.2.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://code.alibabatech.com/schema/dubbo/dubbo.xsd=META-INF/dubbo.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/util/spring-util-4.2.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm-4.2.xsd=org/springframework/oxm/config/spring-oxm-4.2.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm.xsd=org/springframework/oxm/config/spring-oxm-4.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/oxm/spring-oxm-4.1.xsd=org/springframework/oxm/config/spring-oxm-4.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-4.2.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.2.xsd=org/springframework/oxm/config/spring-oxm-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-4.2.xsd=org/springframework/aop/config/spring-aop-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.2.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd=org/springframework/web/servlet/config/spring-mvc-4.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm-4.0.xsd=org/springframework/oxm/config/spring-oxm-4.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.2.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.1.xsd=org/springframework/oxm/config/spring-oxm-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.2.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-4.2.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.2.xsd}
+[DEBUG]_2018-01-09 14:46:36 :Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.2.xsd
+[DEBUG]_2018-01-09 14:46:36 :Found XML schema [http://code.alibabatech.com/schema/dubbo/dubbo.xsd] in classpath: META-INF/dubbo.xsd
+[DEBUG]_2018-01-09 14:46:37 :Loading bean definitions
+[DEBUG]_2018-01-09 14:46:37 :Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://code.alibabatech.com/schema/dubbo=com.alibaba.dubbo.config.spring.schema.DubboNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/oxm=org.springframework.oxm.config.OxmNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+[INFO ]_2018-01-09 14:46:37 :using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[DEBUG]_2018-01-09 14:46:37 :Loaded 3 bean definitions from location pattern [consumer.xml]
+[DEBUG]_2018-01-09 14:46:37 :Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@606d8acf: org.springframework.beans.factory.support.DefaultListableBeanFactory@5383967b: defining beans [demotest-consumer,com.alibaba.dubbo.config.RegistryConfig,permissionService]; root of factory hierarchy
+[DEBUG]_2018-01-09 14:46:37 :Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@7494e528]
+[DEBUG]_2018-01-09 14:46:37 :Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@4f063c0a]
+[DEBUG]_2018-01-09 14:46:37 :Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5383967b: defining beans [demotest-consumer,com.alibaba.dubbo.config.RegistryConfig,permissionService]; root of factory hierarchy
+[DEBUG]_2018-01-09 14:46:37 :Creating shared instance of singleton bean 'demotest-consumer'
+[DEBUG]_2018-01-09 14:46:37 :Creating instance of bean 'demotest-consumer'
+[DEBUG]_2018-01-09 14:46:37 :Eagerly caching bean 'demotest-consumer' to allow for resolving potential circular references
+[DEBUG]_2018-01-09 14:46:37 :Finished creating instance of bean 'demotest-consumer'
+[DEBUG]_2018-01-09 14:46:37 :Creating shared instance of singleton bean 'com.alibaba.dubbo.config.RegistryConfig'
+[DEBUG]_2018-01-09 14:46:37 :Creating instance of bean 'com.alibaba.dubbo.config.RegistryConfig'
+[DEBUG]_2018-01-09 14:46:37 :Eagerly caching bean 'com.alibaba.dubbo.config.RegistryConfig' to allow for resolving potential circular references
+[DEBUG]_2018-01-09 14:46:37 :Finished creating instance of bean 'com.alibaba.dubbo.config.RegistryConfig'
+[DEBUG]_2018-01-09 14:46:37 :Creating shared instance of singleton bean 'permissionService'
+[DEBUG]_2018-01-09 14:46:37 :Creating instance of bean 'permissionService'
+[DEBUG]_2018-01-09 14:46:37 : [DUBBO] package com.alibaba.dubbo.rpc;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Protocol$Adpative implements com.alibaba.dubbo.rpc.Protocol {
+public void destroy() {throw new UnsupportedOperationException("method public abstract void com.alibaba.dubbo.rpc.Protocol.destroy() of interface com.alibaba.dubbo.rpc.Protocol is not adaptive method!");
+}
+public int getDefaultPort() {throw new UnsupportedOperationException("method public abstract int com.alibaba.dubbo.rpc.Protocol.getDefaultPort() of interface com.alibaba.dubbo.rpc.Protocol is not adaptive method!");
+}
+public com.alibaba.dubbo.rpc.Invoker refer(java.lang.Class arg0, com.alibaba.dubbo.common.URL arg1) throws java.lang.Class {
+if (arg1 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg1;
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.Protocol) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.Protocol extension = (com.alibaba.dubbo.rpc.Protocol)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.Protocol.class).getExtension(extName);
+return extension.refer(arg0, arg1);
+}
+public com.alibaba.dubbo.rpc.Exporter export(com.alibaba.dubbo.rpc.Invoker arg0) throws com.alibaba.dubbo.rpc.Invoker {
+if (arg0 == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument == null");
+if (arg0.getUrl() == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument getUrl() == null");com.alibaba.dubbo.common.URL url = arg0.getUrl();
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.Protocol) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.Protocol extension = (com.alibaba.dubbo.rpc.Protocol)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.Protocol.class).getExtension(extName);
+return extension.export(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+[DEBUG]_2018-01-09 14:46:37 : [DUBBO] package com.alibaba.dubbo.rpc.cluster;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Cluster$Adpative implements com.alibaba.dubbo.rpc.cluster.Cluster {
+public com.alibaba.dubbo.rpc.Invoker join(com.alibaba.dubbo.rpc.cluster.Directory arg0) throws com.alibaba.dubbo.rpc.cluster.Directory {
+if (arg0 == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.cluster.Directory argument == null");
+if (arg0.getUrl() == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.cluster.Directory argument getUrl() == null");com.alibaba.dubbo.common.URL url = arg0.getUrl();
+String extName = url.getParameter("cluster", "failover");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.cluster.Cluster) name from url(" + url.toString() + ") use keys([cluster])");
+com.alibaba.dubbo.rpc.cluster.Cluster extension = (com.alibaba.dubbo.rpc.cluster.Cluster)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.cluster.Cluster.class).getExtension(extName);
+return extension.join(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+[DEBUG]_2018-01-09 14:46:37 : [DUBBO] package com.alibaba.dubbo.rpc;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ProxyFactory$Adpative implements com.alibaba.dubbo.rpc.ProxyFactory {
+public java.lang.Object getProxy(com.alibaba.dubbo.rpc.Invoker arg0) throws com.alibaba.dubbo.rpc.Invoker {
+if (arg0 == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument == null");
+if (arg0.getUrl() == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument getUrl() == null");com.alibaba.dubbo.common.URL url = arg0.getUrl();
+String extName = url.getParameter("proxy", "javassist");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.ProxyFactory) name from url(" + url.toString() + ") use keys([proxy])");
+com.alibaba.dubbo.rpc.ProxyFactory extension = (com.alibaba.dubbo.rpc.ProxyFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.ProxyFactory.class).getExtension(extName);
+return extension.getProxy(arg0);
+}
+public com.alibaba.dubbo.rpc.Invoker getInvoker(java.lang.Object arg0, java.lang.Class arg1, com.alibaba.dubbo.common.URL arg2) throws java.lang.Object {
+if (arg2 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg2;
+String extName = url.getParameter("proxy", "javassist");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.ProxyFactory) name from url(" + url.toString() + ") use keys([proxy])");
+com.alibaba.dubbo.rpc.ProxyFactory extension = (com.alibaba.dubbo.rpc.ProxyFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.ProxyFactory.class).getExtension(extName);
+return extension.getInvoker(arg0, arg1, arg2);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+[DEBUG]_2018-01-09 14:46:37 :Eagerly caching bean 'permissionService' to allow for resolving potential circular references
+[DEBUG]_2018-01-09 14:46:37 :Invoking afterPropertiesSet() on bean with name 'permissionService'
+[DEBUG]_2018-01-09 14:46:37 :Returning cached instance of singleton bean 'demotest-consumer'
+[DEBUG]_2018-01-09 14:46:37 :Returning cached instance of singleton bean 'com.alibaba.dubbo.config.RegistryConfig'
+[DEBUG]_2018-01-09 14:46:37 :Finished creating instance of bean 'permissionService'
+[DEBUG]_2018-01-09 14:46:37 :Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@2aa3cd93]
+[DEBUG]_2018-01-09 14:46:37 :Returning cached instance of singleton bean 'lifecycleProcessor'
+[DEBUG]_2018-01-09 14:46:37 :Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+[DEBUG]_2018-01-09 14:46:37 :Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+[DEBUG]_2018-01-09 14:46:37 :Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+[DEBUG]_2018-01-09 14:46:37 :Returning cached instance of singleton bean 'lifecycleProcessor'
+[DEBUG]_2018-01-09 14:46:37 :Returning cached instance of singleton bean 'permissionService'
+[DEBUG]_2018-01-09 14:46:38 : [DUBBO] package com.alibaba.dubbo.registry;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class RegistryFactory$Adpative implements com.alibaba.dubbo.registry.RegistryFactory {
+public com.alibaba.dubbo.registry.Registry getRegistry(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.registry.RegistryFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.registry.RegistryFactory extension = (com.alibaba.dubbo.registry.RegistryFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.registry.RegistryFactory.class).getExtension(extName);
+return extension.getRegistry(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+[DEBUG]_2018-01-09 14:46:38 : [DUBBO] package com.alibaba.dubbo.remoting.zookeeper;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ZookeeperTransporter$Adpative implements com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter {
+public com.alibaba.dubbo.remoting.zookeeper.ZookeeperClient connect(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("client", url.getParameter("transporter", "zkclient"));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter) name from url(" + url.toString() + ") use keys([client, transporter])");
+com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter extension = (com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter.class).getExtension(extName);
+return extension.connect(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ]_2018-01-09 14:46:38 : [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-localhost.cache, data: {com.Quantum.service.DemoService=empty://192.168.88.11:20880/com.Quantum.service.DemoService?anyhost=true&application=demotest-provider&category=configurators&check=false&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=5724&side=provider&timestamp=1515480374415}, dubbo version: 2.5.3, current host: 127.0.0.1
+[DEBUG]_2018-01-09 14:46:38 :Creating new ZookKeeper instance to connect to localhost:2181.
+[INFO ]_2018-01-09 14:46:38 :Starting ZkClient event thread.
+[INFO ]_2018-01-09 14:46:38 :Client environment:zookeeper.version=3.4.9-1757313, built on 08/23/2016 06:50 GMT
+[INFO ]_2018-01-09 14:46:38 :Client environment:host.name=SC-201708242216
+[INFO ]_2018-01-09 14:46:38 :Client environment:java.version=1.8.0_144
+[INFO ]_2018-01-09 14:46:38 :Client environment:java.vendor=Oracle Corporation
+[INFO ]_2018-01-09 14:46:38 :Client environment:java.home=F:\javajdk\jre
+[INFO ]_2018-01-09 14:46:38 :Client environment:java.class.path=C:\Users\Administrator\Desktop\dubbodemo\dubbodemo\dubbo-consumer\target\classes;C:\Users\Administrator\Desktop\dubbodemo\dubbodemo\dubbo-api\target\classes;C:\Users\Administrator\.m2\repository\jstl\jstl\1.2\jstl-1.2.jar;C:\Users\Administrator\.m2\repository\javax\javaee-api\7.0\javaee-api-7.0.jar;C:\Users\Administrator\.m2\repository\com\sun\mail\javax.mail\1.5.0\javax.mail-1.5.0.jar;C:\Users\Administrator\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-core\4.2.5.RELEASE\spring-core-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-web\4.2.5.RELEASE\spring-web-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-beans\4.2.5.RELEASE\spring-beans-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-oxm\4.2.5.RELEASE\spring-oxm-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-tx\4.2.5.RELEASE\spring-tx-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-jdbc\4.2.5.RELEASE\spring-jdbc-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-webmvc\4.2.5.RELEASE\spring-webmvc-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-expression\4.2.5.RELEASE\spring-expression-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-context\4.2.5.RELEASE\spring-context-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-context-support\4.2.5.RELEASE\spring-context-support-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-aop\4.2.5.RELEASE\spring-aop-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-test\4.2.5.RELEASE\spring-test-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\mybatis\mybatis\3.2.8\mybatis-3.2.8.jar;C:\Users\Administrator\.m2\repository\org\mybatis\mybatis-spring\1.2.2\mybatis-spring-1.2.2.jar;C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\5.1.29\mysql-connector-java-5.1.29.jar;C:\Users\Administrator\.m2\repository\commons-dbcp\commons-dbcp\1.2.2\commons-dbcp-1.2.2.jar;C:\Users\Administrator\.m2\repository\commons-pool\commons-pool\1.3\commons-pool-1.3.jar;C:\Users\Administrator\.m2\repository\com\alibaba\fastjson\1.2.22\fastjson-1.2.22.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.18\slf4j-api-1.7.18.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-log4j12\1.7.18\slf4j-log4j12-1.7.18.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.0\jackson-core-2.8.0.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.0\jackson-databind-2.8.0.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\Administrator\.m2\repository\commons-fileupload\commons-fileupload\1.3.1\commons-fileupload-1.3.1.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Administrator\.m2\repository\org\quartz-scheduler\quartz\2.2.1\quartz-2.2.1.jar;C:\Users\Administrator\.m2\repository\c3p0\c3p0\0.9.1.1\c3p0-0.9.1.1.jar;C:\Users\Administrator\.m2\repository\org\apache\shiro\shiro-core\1.3.2\shiro-core-1.3.2.jar;C:\Users\Administrator\.m2\repository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar;C:\Users\Administrator\.m2\repository\org\apache\shiro\shiro-web\1.3.2\shiro-web-1.3.2.jar;C:\Users\Administrator\.m2\repository\org\apache\shiro\shiro-spring\1.3.2\shiro-spring-1.3.2.jar;C:\Users\Administrator\.m2\repository\org\apache\shiro\shiro-ehcache\1.3.2\shiro-ehcache-1.3.2.jar;C:\Users\Administrator\.m2\repository\net\sf\ehcache\ehcache-core\2.5.3\ehcache-core-2.5.3.jar;C:\Users\Administrator\.m2\repository\org\apache\zookeeper\zookeeper\3.4.9\zookeeper-3.4.9.jar;C:\Users\Administrator\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\Administrator\.m2\repository\io\netty\netty\3.10.5.Final\netty-3.10.5.Final.jar;C:\Users\Administrator\.m2\repository\com\alibaba\dubbo\2.5.3\dubbo-2.5.3.jar;C:\Users\Administrator\.m2\repository\org\javassist\javassist\3.15.0-GA\javassist-3.15.0-GA.jar;C:\Users\Administrator\.m2\repository\org\jboss\netty\netty\3.2.5.Final\netty-3.2.5.Final.jar;C:\Users\Administrator\.m2\repository\com\101tec\zkclient\0.10\zkclient-0.10.jar
+[INFO ]_2018-01-09 14:46:38 :Client environment:java.library.path=F:\javajdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:/javajdk/bin/../jre/bin/server;F:/javajdk/bin/../jre/bin;F:/javajdk/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\javajdk\bin;F:\apache-maven-3.5.0\bin;F:\rose\common;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\HP\LoadRunner\strawberry-perl\perl\bin;F:\git\Git\cmd;F:\VisualC++6.0\Tools\WinNT;F:\VisualC++6.0\MSDev98\Bin;F:\VisualC++6.0\Tools;F:\Microsoft Visual Studio\VC98\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;F:\eclipse\eclipse;;.
+[INFO ]_2018-01-09 14:46:38 :Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+[INFO ]_2018-01-09 14:46:38 :Client environment:java.compiler=<NA>
+[INFO ]_2018-01-09 14:46:38 :Client environment:os.name=Windows 10
+[INFO ]_2018-01-09 14:46:38 :Client environment:os.arch=amd64
+[INFO ]_2018-01-09 14:46:38 :Client environment:os.version=10.0
+[INFO ]_2018-01-09 14:46:38 :Client environment:user.name=Administrator
+[INFO ]_2018-01-09 14:46:38 :Client environment:user.home=C:\Users\Administrator
+[INFO ]_2018-01-09 14:46:38 :Client environment:user.dir=C:\Users\Administrator\Desktop\dubbodemo\dubbodemo\dubbo-consumer
+[INFO ]_2018-01-09 14:46:38 :Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@3d74bf60
+[DEBUG]_2018-01-09 14:46:38 :zookeeper.disableAutoWatchReset is false
+[DEBUG]_2018-01-09 14:46:38 :Awaiting connection to Zookeeper server
+[INFO ]_2018-01-09 14:46:38 :Waiting for keeper state SyncConnected
+[INFO ]_2018-01-09 14:46:38 :Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ]_2018-01-09 14:46:38 :Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+[DEBUG]_2018-01-09 14:46:38 :Session establishment request sent on 127.0.0.1/127.0.0.1:2181
+[INFO ]_2018-01-09 14:46:38 :Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x100005496c70001, negotiated timeout = 30000
+[DEBUG]_2018-01-09 14:46:38 :Received event: WatchedEvent state:SyncConnected type:None path:null
+[INFO ]_2018-01-09 14:46:38 :zookeeper state changed (SyncConnected)
+[DEBUG]_2018-01-09 14:46:38 :Leaving process event
+[DEBUG]_2018-01-09 14:46:38 :State is SyncConnected
+[DEBUG]_2018-01-09 14:46:38 : [DUBBO] package com.alibaba.dubbo.rpc.cluster;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class RouterFactory$Adpative implements com.alibaba.dubbo.rpc.cluster.RouterFactory {
+public com.alibaba.dubbo.rpc.cluster.Router getRouter(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getProtocol();
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.cluster.RouterFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.cluster.RouterFactory extension = (com.alibaba.dubbo.rpc.cluster.RouterFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.cluster.RouterFactory.class).getExtension(extName);
+return extension.getRouter(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+[DEBUG]_2018-01-09 14:46:38 : [DUBBO] package com.alibaba.dubbo.rpc.cluster;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ConfiguratorFactory$Adpative implements com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory {
+public com.alibaba.dubbo.rpc.cluster.Configurator getConfigurator(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getProtocol();
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory extension = (com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory.class).getExtension(extName);
+return extension.getConfigurator(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ]_2018-01-09 14:46:38 : [DUBBO] Register: consumer://192.168.88.11/com.Quantum.service.DemoService?application=demotest-consumer&category=consumers&check=false&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=5940&side=consumer&timestamp=1515480397996, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 14:46:38 :Reading reply sessionid:0x100005496c70001, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,10,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:46:39 :Reading reply sessionid:0x100005496c70001, packet:: clientPath:null serverPath:null finished:false header:: 2,1  replyHeader:: 2,11,-110  request:: '/dubbo/com.Quantum.service.DemoService,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:46:39 :Reading reply sessionid:0x100005496c70001, packet:: clientPath:null serverPath:null finished:false header:: 3,1  replyHeader:: 3,12,0  request:: '/dubbo/com.Quantum.service.DemoService/consumers,,v{s{31,s{'world,'anyone}}},0  response:: '/dubbo/com.Quantum.service.DemoService/consumers 
+[DEBUG]_2018-01-09 14:46:39 :Reading reply sessionid:0x100005496c70001, packet:: clientPath:null serverPath:null finished:false header:: 4,1  replyHeader:: 4,13,0  request:: '/dubbo/com.Quantum.service.DemoService/consumers/consumer%253A%252F%252F192.168.88.11%252Fcom.Quantum.service.DemoService%253Fapplication%253Ddemotest-consumer%2526category%253Dconsumers%2526check%253Dfalse%2526dubbo%253D2.5.3%2526interface%253Dcom.Quantum.service.DemoService%2526methods%253DgetPermissions%2526organization%253Ddubbox%2526owner%253Dprogrammer%2526pid%253D5940%2526side%253Dconsumer%2526timestamp%253D1515480397996,,v{s{31,s{'world,'anyone}}},1  response:: '/dubbo/com.Quantum.service.DemoService/consumers/consumer%253A%252F%252F192.168.88.11%252Fcom.Quantum.service.DemoService%253Fapplication%253Ddemotest-consumer%2526category%253Dconsumers%2526check%253Dfalse%2526dubbo%253D2.5.3%2526interface%253Dcom.Quantum.service.DemoService%2526methods%253DgetPermissions%2526organization%253Ddubbox%2526owner%253Dprogrammer%2526pid%253D5940%2526side%253Dconsumer%2526timestamp%253D1515480397996 
+[INFO ]_2018-01-09 14:46:39 : [DUBBO] Subscribe: consumer://192.168.88.11/com.Quantum.service.DemoService?application=demotest-consumer&category=providers,configurators,routers&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=5940&side=consumer&timestamp=1515480397996, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 14:46:39 :Reading reply sessionid:0x100005496c70001, packet:: clientPath:null serverPath:null finished:false header:: 5,1  replyHeader:: 5,14,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:46:39 :Reading reply sessionid:0x100005496c70001, packet:: clientPath:null serverPath:null finished:false header:: 6,1  replyHeader:: 6,15,-110  request:: '/dubbo/com.Quantum.service.DemoService,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:46:39 :Reading reply sessionid:0x100005496c70001, packet:: clientPath:null serverPath:null finished:false header:: 7,1  replyHeader:: 7,16,-110  request:: '/dubbo/com.Quantum.service.DemoService/providers,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:46:39 :Reading reply sessionid:0x100005496c70001, packet:: clientPath:null serverPath:null finished:false header:: 8,3  replyHeader:: 8,16,0  request:: '/dubbo/com.Quantum.service.DemoService/providers,T  response:: s{4,4,1515480376014,1515480376014,0,1,0,0,0,1,5} 
+[DEBUG]_2018-01-09 14:46:39 :Reading reply sessionid:0x100005496c70001, packet:: clientPath:null serverPath:null finished:false header:: 9,8  replyHeader:: 9,16,0  request:: '/dubbo/com.Quantum.service.DemoService/providers,T  response:: v{'dubbo%253A%252F%252F192.168.88.11%253A20880%252Fcom.Quantum.service.DemoService%253Fanyhost%253Dtrue%2526application%253Ddemotest-provider%2526dubbo%253D2.5.3%2526interface%253Dcom.Quantum.service.DemoService%2526methods%253DgetPermissions%2526organization%253Ddubbox%2526owner%253Dprogrammer%2526pid%253D5724%2526side%253Dprovider%2526timestamp%253D1515480374415} 
+[DEBUG]_2018-01-09 14:46:39 :Reading reply sessionid:0x100005496c70001, packet:: clientPath:null serverPath:null finished:false header:: 10,1  replyHeader:: 10,17,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:46:39 :Reading reply sessionid:0x100005496c70001, packet:: clientPath:null serverPath:null finished:false header:: 11,1  replyHeader:: 11,18,-110  request:: '/dubbo/com.Quantum.service.DemoService,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:46:39 :Reading reply sessionid:0x100005496c70001, packet:: clientPath:null serverPath:null finished:false header:: 12,1  replyHeader:: 12,19,-110  request:: '/dubbo/com.Quantum.service.DemoService/configurators,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:46:39 :Reading reply sessionid:0x100005496c70001, packet:: clientPath:null serverPath:null finished:false header:: 13,3  replyHeader:: 13,19,0  request:: '/dubbo/com.Quantum.service.DemoService/configurators,T  response:: s{8,8,1515480376112,1515480376112,0,0,0,0,0,0,8} 
+[DEBUG]_2018-01-09 14:46:39 :Reading reply sessionid:0x100005496c70001, packet:: clientPath:null serverPath:null finished:false header:: 14,8  replyHeader:: 14,19,0  request:: '/dubbo/com.Quantum.service.DemoService/configurators,T  response:: v{} 
+[DEBUG]_2018-01-09 14:46:39 :Reading reply sessionid:0x100005496c70001, packet:: clientPath:null serverPath:null finished:false header:: 15,1  replyHeader:: 15,20,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:46:39 :Reading reply sessionid:0x100005496c70001, packet:: clientPath:null serverPath:null finished:false header:: 16,1  replyHeader:: 16,21,-110  request:: '/dubbo/com.Quantum.service.DemoService,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:46:39 :Reading reply sessionid:0x100005496c70001, packet:: clientPath:null serverPath:null finished:false header:: 17,1  replyHeader:: 17,22,0  request:: '/dubbo/com.Quantum.service.DemoService/routers,,v{s{31,s{'world,'anyone}}},0  response:: '/dubbo/com.Quantum.service.DemoService/routers 
+[DEBUG]_2018-01-09 14:46:39 :Reading reply sessionid:0x100005496c70001, packet:: clientPath:null serverPath:null finished:false header:: 18,3  replyHeader:: 18,22,0  request:: '/dubbo/com.Quantum.service.DemoService/routers,T  response:: s{22,22,1515480399270,1515480399270,0,0,0,0,0,0,22} 
+[DEBUG]_2018-01-09 14:46:39 :Reading reply sessionid:0x100005496c70001, packet:: clientPath:null serverPath:null finished:false header:: 19,8  replyHeader:: 19,22,0  request:: '/dubbo/com.Quantum.service.DemoService/routers,T  response:: v{} 
+[INFO ]_2018-01-09 14:46:39 : [DUBBO] Notify urls for subscribe url consumer://192.168.88.11/com.Quantum.service.DemoService?application=demotest-consumer&category=providers,configurators,routers&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=5940&side=consumer&timestamp=1515480397996, urls: [dubbo://192.168.88.11:20880/com.Quantum.service.DemoService?anyhost=true&application=demotest-provider&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=5724&side=provider&timestamp=1515480374415, empty://192.168.88.11/com.Quantum.service.DemoService?application=demotest-consumer&category=configurators&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=5940&side=consumer&timestamp=1515480397996, empty://192.168.88.11/com.Quantum.service.DemoService?application=demotest-consumer&category=routers&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=5940&side=consumer&timestamp=1515480397996], dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 14:46:39 : [DUBBO] package com.alibaba.dubbo.remoting;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Transporter$Adpative implements com.alibaba.dubbo.remoting.Transporter {
+public com.alibaba.dubbo.remoting.Client connect(com.alibaba.dubbo.common.URL arg0, com.alibaba.dubbo.remoting.ChannelHandler arg1) throws com.alibaba.dubbo.common.URL {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("client", url.getParameter("transporter", "netty"));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.Transporter) name from url(" + url.toString() + ") use keys([client, transporter])");
+com.alibaba.dubbo.remoting.Transporter extension = (com.alibaba.dubbo.remoting.Transporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Transporter.class).getExtension(extName);
+return extension.connect(arg0, arg1);
+}
+public com.alibaba.dubbo.remoting.Server bind(com.alibaba.dubbo.common.URL arg0, com.alibaba.dubbo.remoting.ChannelHandler arg1) throws com.alibaba.dubbo.common.URL {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("server", url.getParameter("transporter", "netty"));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.Transporter) name from url(" + url.toString() + ") use keys([server, transporter])");
+com.alibaba.dubbo.remoting.Transporter extension = (com.alibaba.dubbo.remoting.Transporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Transporter.class).getExtension(extName);
+return extension.bind(arg0, arg1);
+}
+}, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 14:46:39 : [DUBBO] package com.alibaba.dubbo.remoting;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Dispatcher$Adpative implements com.alibaba.dubbo.remoting.Dispatcher {
+public com.alibaba.dubbo.remoting.ChannelHandler dispatch(com.alibaba.dubbo.remoting.ChannelHandler arg0, com.alibaba.dubbo.common.URL arg1) {
+if (arg1 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg1;
+String extName = url.getParameter("dispatcher", url.getParameter("dispather", url.getParameter("channel.handler", "all")));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.Dispatcher) name from url(" + url.toString() + ") use keys([dispatcher, dispather, channel.handler])");
+com.alibaba.dubbo.remoting.Dispatcher extension = (com.alibaba.dubbo.remoting.Dispatcher)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Dispatcher.class).getExtension(extName);
+return extension.dispatch(arg0, arg1);
+}
+}, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 14:46:39 : [DUBBO] package com.alibaba.dubbo.common.threadpool;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ThreadPool$Adpative implements com.alibaba.dubbo.common.threadpool.ThreadPool {
+public java.util.concurrent.Executor getExecutor(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("threadpool", "fixed");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.common.threadpool.ThreadPool) name from url(" + url.toString() + ") use keys([threadpool])");
+com.alibaba.dubbo.common.threadpool.ThreadPool extension = (com.alibaba.dubbo.common.threadpool.ThreadPool)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.common.threadpool.ThreadPool.class).getExtension(extName);
+return extension.getExecutor(arg0);
+}
+}, dubbo version: 2.5.3, current host: 192.168.88.11
+[INFO ]_2018-01-09 14:46:39 : [DUBBO] Successed connect to server /192.168.88.11:20880 from NettyClient 192.168.88.11 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xee26450c, /192.168.88.11:19850 => /192.168.88.11:20880]], dubbo version: 2.5.3, current host: 192.168.88.11
+[INFO ]_2018-01-09 14:46:39 : [DUBBO] Start NettyClient SC-201708242216/192.168.88.11 connect to the server /192.168.88.11:20880, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 14:46:39 : [DUBBO] package com.alibaba.dubbo.cache;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class CacheFactory$Adpative implements com.alibaba.dubbo.cache.CacheFactory {
+public com.alibaba.dubbo.cache.Cache getCache(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("cache", "lru");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.cache.CacheFactory) name from url(" + url.toString() + ") use keys([cache])");
+com.alibaba.dubbo.cache.CacheFactory extension = (com.alibaba.dubbo.cache.CacheFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.cache.CacheFactory.class).getExtension(extName);
+return extension.getCache(arg0);
+}
+}, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 14:46:39 : [DUBBO] package com.alibaba.dubbo.monitor;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class MonitorFactory$Adpative implements com.alibaba.dubbo.monitor.MonitorFactory {
+public com.alibaba.dubbo.monitor.Monitor getMonitor(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.monitor.MonitorFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.monitor.MonitorFactory extension = (com.alibaba.dubbo.monitor.MonitorFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.monitor.MonitorFactory.class).getExtension(extName);
+return extension.getMonitor(arg0);
+}
+}, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 14:46:39 : [DUBBO] package com.alibaba.dubbo.validation;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Validation$Adpative implements com.alibaba.dubbo.validation.Validation {
+public com.alibaba.dubbo.validation.Validator getValidator(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("validation", "jvalidation");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.validation.Validation) name from url(" + url.toString() + ") use keys([validation])");
+com.alibaba.dubbo.validation.Validation extension = (com.alibaba.dubbo.validation.Validation)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.validation.Validation.class).getExtension(extName);
+return extension.getValidator(arg0);
+}
+}, dubbo version: 2.5.3, current host: 192.168.88.11
+[INFO ]_2018-01-09 14:46:39 : [DUBBO] Refer dubbo service com.Quantum.service.DemoService from url zookeeper://localhost:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=demotest-consumer&check=false&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=5940&side=consumer&timestamp=1515480397996, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 14:46:40 : [DUBBO] Decode decodeable message com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 14:46:49 :Got ping response for sessionid: 0x100005496c70001 after 0ms
+[DEBUG]_2018-01-09 14:52:17 :Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG]_2018-01-09 14:52:17 :Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG]_2018-01-09 14:52:17 :Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[INFO ]_2018-01-09 14:52:17 :Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@606d8acf: startup date [Tue Jan 09 14:52:17 CST 2018]; root of context hierarchy
+[DEBUG]_2018-01-09 14:52:17 :Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG]_2018-01-09 14:52:17 :Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG]_2018-01-09 14:52:17 :Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[INFO ]_2018-01-09 14:52:17 :Loading XML bean definitions from class path resource [consumer.xml]
+[DEBUG]_2018-01-09 14:52:17 :Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[DEBUG]_2018-01-09 14:52:17 :Loading schema mappings from [META-INF/spring.schemas]
+[DEBUG]_2018-01-09 14:52:17 :Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/cache/spring-cache-4.2.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-4.2.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.0.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/task/spring-task-4.2.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-4.2.xsd=org/springframework/transaction/config/spring-tx-4.2.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://code.alibabatech.com/schema/dubbo/dubbo.xsd=META-INF/dubbo.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/util/spring-util-4.2.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm-4.2.xsd=org/springframework/oxm/config/spring-oxm-4.2.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm.xsd=org/springframework/oxm/config/spring-oxm-4.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/oxm/spring-oxm-4.1.xsd=org/springframework/oxm/config/spring-oxm-4.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-4.2.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.2.xsd=org/springframework/oxm/config/spring-oxm-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-4.2.xsd=org/springframework/aop/config/spring-aop-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.2.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd=org/springframework/web/servlet/config/spring-mvc-4.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm-4.0.xsd=org/springframework/oxm/config/spring-oxm-4.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.2.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.1.xsd=org/springframework/oxm/config/spring-oxm-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.2.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-4.2.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.2.xsd}
+[DEBUG]_2018-01-09 14:52:17 :Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.2.xsd
+[DEBUG]_2018-01-09 14:52:17 :Found XML schema [http://code.alibabatech.com/schema/dubbo/dubbo.xsd] in classpath: META-INF/dubbo.xsd
+[DEBUG]_2018-01-09 14:52:17 :Loading bean definitions
+[DEBUG]_2018-01-09 14:52:17 :Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://code.alibabatech.com/schema/dubbo=com.alibaba.dubbo.config.spring.schema.DubboNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/oxm=org.springframework.oxm.config.OxmNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+[INFO ]_2018-01-09 14:52:17 :using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[DEBUG]_2018-01-09 14:52:17 :Loaded 3 bean definitions from location pattern [consumer.xml]
+[DEBUG]_2018-01-09 14:52:17 :Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@606d8acf: org.springframework.beans.factory.support.DefaultListableBeanFactory@5383967b: defining beans [demotest-consumer,com.alibaba.dubbo.config.RegistryConfig,permissionService]; root of factory hierarchy
+[DEBUG]_2018-01-09 14:52:17 :Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@7494e528]
+[DEBUG]_2018-01-09 14:52:17 :Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@4f063c0a]
+[DEBUG]_2018-01-09 14:52:17 :Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5383967b: defining beans [demotest-consumer,com.alibaba.dubbo.config.RegistryConfig,permissionService]; root of factory hierarchy
+[DEBUG]_2018-01-09 14:52:17 :Creating shared instance of singleton bean 'demotest-consumer'
+[DEBUG]_2018-01-09 14:52:17 :Creating instance of bean 'demotest-consumer'
+[DEBUG]_2018-01-09 14:52:17 :Eagerly caching bean 'demotest-consumer' to allow for resolving potential circular references
+[DEBUG]_2018-01-09 14:52:17 :Finished creating instance of bean 'demotest-consumer'
+[DEBUG]_2018-01-09 14:52:17 :Creating shared instance of singleton bean 'com.alibaba.dubbo.config.RegistryConfig'
+[DEBUG]_2018-01-09 14:52:17 :Creating instance of bean 'com.alibaba.dubbo.config.RegistryConfig'
+[DEBUG]_2018-01-09 14:52:17 :Eagerly caching bean 'com.alibaba.dubbo.config.RegistryConfig' to allow for resolving potential circular references
+[DEBUG]_2018-01-09 14:52:17 :Finished creating instance of bean 'com.alibaba.dubbo.config.RegistryConfig'
+[DEBUG]_2018-01-09 14:52:17 :Creating shared instance of singleton bean 'permissionService'
+[DEBUG]_2018-01-09 14:52:17 :Creating instance of bean 'permissionService'
+[DEBUG]_2018-01-09 14:52:17 : [DUBBO] package com.alibaba.dubbo.rpc;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Protocol$Adpative implements com.alibaba.dubbo.rpc.Protocol {
+public void destroy() {throw new UnsupportedOperationException("method public abstract void com.alibaba.dubbo.rpc.Protocol.destroy() of interface com.alibaba.dubbo.rpc.Protocol is not adaptive method!");
+}
+public int getDefaultPort() {throw new UnsupportedOperationException("method public abstract int com.alibaba.dubbo.rpc.Protocol.getDefaultPort() of interface com.alibaba.dubbo.rpc.Protocol is not adaptive method!");
+}
+public com.alibaba.dubbo.rpc.Invoker refer(java.lang.Class arg0, com.alibaba.dubbo.common.URL arg1) throws java.lang.Class {
+if (arg1 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg1;
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.Protocol) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.Protocol extension = (com.alibaba.dubbo.rpc.Protocol)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.Protocol.class).getExtension(extName);
+return extension.refer(arg0, arg1);
+}
+public com.alibaba.dubbo.rpc.Exporter export(com.alibaba.dubbo.rpc.Invoker arg0) throws com.alibaba.dubbo.rpc.Invoker {
+if (arg0 == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument == null");
+if (arg0.getUrl() == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument getUrl() == null");com.alibaba.dubbo.common.URL url = arg0.getUrl();
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.Protocol) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.Protocol extension = (com.alibaba.dubbo.rpc.Protocol)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.Protocol.class).getExtension(extName);
+return extension.export(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+[DEBUG]_2018-01-09 14:52:18 : [DUBBO] package com.alibaba.dubbo.rpc.cluster;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Cluster$Adpative implements com.alibaba.dubbo.rpc.cluster.Cluster {
+public com.alibaba.dubbo.rpc.Invoker join(com.alibaba.dubbo.rpc.cluster.Directory arg0) throws com.alibaba.dubbo.rpc.cluster.Directory {
+if (arg0 == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.cluster.Directory argument == null");
+if (arg0.getUrl() == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.cluster.Directory argument getUrl() == null");com.alibaba.dubbo.common.URL url = arg0.getUrl();
+String extName = url.getParameter("cluster", "failover");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.cluster.Cluster) name from url(" + url.toString() + ") use keys([cluster])");
+com.alibaba.dubbo.rpc.cluster.Cluster extension = (com.alibaba.dubbo.rpc.cluster.Cluster)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.cluster.Cluster.class).getExtension(extName);
+return extension.join(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+[DEBUG]_2018-01-09 14:52:18 : [DUBBO] package com.alibaba.dubbo.rpc;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ProxyFactory$Adpative implements com.alibaba.dubbo.rpc.ProxyFactory {
+public java.lang.Object getProxy(com.alibaba.dubbo.rpc.Invoker arg0) throws com.alibaba.dubbo.rpc.Invoker {
+if (arg0 == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument == null");
+if (arg0.getUrl() == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument getUrl() == null");com.alibaba.dubbo.common.URL url = arg0.getUrl();
+String extName = url.getParameter("proxy", "javassist");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.ProxyFactory) name from url(" + url.toString() + ") use keys([proxy])");
+com.alibaba.dubbo.rpc.ProxyFactory extension = (com.alibaba.dubbo.rpc.ProxyFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.ProxyFactory.class).getExtension(extName);
+return extension.getProxy(arg0);
+}
+public com.alibaba.dubbo.rpc.Invoker getInvoker(java.lang.Object arg0, java.lang.Class arg1, com.alibaba.dubbo.common.URL arg2) throws java.lang.Object {
+if (arg2 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg2;
+String extName = url.getParameter("proxy", "javassist");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.ProxyFactory) name from url(" + url.toString() + ") use keys([proxy])");
+com.alibaba.dubbo.rpc.ProxyFactory extension = (com.alibaba.dubbo.rpc.ProxyFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.ProxyFactory.class).getExtension(extName);
+return extension.getInvoker(arg0, arg1, arg2);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+[DEBUG]_2018-01-09 14:52:18 :Eagerly caching bean 'permissionService' to allow for resolving potential circular references
+[DEBUG]_2018-01-09 14:52:18 :Invoking afterPropertiesSet() on bean with name 'permissionService'
+[DEBUG]_2018-01-09 14:52:18 :Returning cached instance of singleton bean 'demotest-consumer'
+[DEBUG]_2018-01-09 14:52:18 :Returning cached instance of singleton bean 'com.alibaba.dubbo.config.RegistryConfig'
+[DEBUG]_2018-01-09 14:52:18 :Finished creating instance of bean 'permissionService'
+[DEBUG]_2018-01-09 14:52:18 :Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@2aa3cd93]
+[DEBUG]_2018-01-09 14:52:18 :Returning cached instance of singleton bean 'lifecycleProcessor'
+[DEBUG]_2018-01-09 14:52:18 :Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+[DEBUG]_2018-01-09 14:52:18 :Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+[DEBUG]_2018-01-09 14:52:18 :Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+[DEBUG]_2018-01-09 14:52:18 :Returning cached instance of singleton bean 'lifecycleProcessor'
+[DEBUG]_2018-01-09 14:52:18 :Returning cached instance of singleton bean 'permissionService'
+[DEBUG]_2018-01-09 14:52:18 : [DUBBO] package com.alibaba.dubbo.registry;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class RegistryFactory$Adpative implements com.alibaba.dubbo.registry.RegistryFactory {
+public com.alibaba.dubbo.registry.Registry getRegistry(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.registry.RegistryFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.registry.RegistryFactory extension = (com.alibaba.dubbo.registry.RegistryFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.registry.RegistryFactory.class).getExtension(extName);
+return extension.getRegistry(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+[DEBUG]_2018-01-09 14:52:18 : [DUBBO] package com.alibaba.dubbo.remoting.zookeeper;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ZookeeperTransporter$Adpative implements com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter {
+public com.alibaba.dubbo.remoting.zookeeper.ZookeeperClient connect(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("client", url.getParameter("transporter", "zkclient"));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter) name from url(" + url.toString() + ") use keys([client, transporter])");
+com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter extension = (com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter.class).getExtension(extName);
+return extension.connect(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ]_2018-01-09 14:52:18 : [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-localhost.cache, data: {com.Quantum.service.DemoService=empty://192.168.88.11:20880/com.Quantum.service.DemoService?anyhost=true&application=demotest-provider&category=configurators&check=false&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=4180&side=provider&timestamp=1515480725656}, dubbo version: 2.5.3, current host: 127.0.0.1
+[DEBUG]_2018-01-09 14:52:18 :Creating new ZookKeeper instance to connect to localhost:2181.
+[INFO ]_2018-01-09 14:52:18 :Starting ZkClient event thread.
+[INFO ]_2018-01-09 14:52:18 :Client environment:zookeeper.version=3.4.9-1757313, built on 08/23/2016 06:50 GMT
+[INFO ]_2018-01-09 14:52:18 :Client environment:host.name=SC-201708242216
+[INFO ]_2018-01-09 14:52:18 :Client environment:java.version=1.8.0_144
+[INFO ]_2018-01-09 14:52:18 :Client environment:java.vendor=Oracle Corporation
+[INFO ]_2018-01-09 14:52:18 :Client environment:java.home=F:\javajdk\jre
+[INFO ]_2018-01-09 14:52:18 :Client environment:java.class.path=C:\Users\Administrator\Desktop\dubbodemo\dubbodemo\dubbo-consumer\target\classes;C:\Users\Administrator\Desktop\dubbodemo\dubbodemo\dubbo-api\target\classes;C:\Users\Administrator\.m2\repository\jstl\jstl\1.2\jstl-1.2.jar;C:\Users\Administrator\.m2\repository\javax\javaee-api\7.0\javaee-api-7.0.jar;C:\Users\Administrator\.m2\repository\com\sun\mail\javax.mail\1.5.0\javax.mail-1.5.0.jar;C:\Users\Administrator\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-core\4.2.5.RELEASE\spring-core-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-web\4.2.5.RELEASE\spring-web-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-beans\4.2.5.RELEASE\spring-beans-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-oxm\4.2.5.RELEASE\spring-oxm-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-tx\4.2.5.RELEASE\spring-tx-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-jdbc\4.2.5.RELEASE\spring-jdbc-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-webmvc\4.2.5.RELEASE\spring-webmvc-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-expression\4.2.5.RELEASE\spring-expression-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-context\4.2.5.RELEASE\spring-context-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-context-support\4.2.5.RELEASE\spring-context-support-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-aop\4.2.5.RELEASE\spring-aop-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-test\4.2.5.RELEASE\spring-test-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\mybatis\mybatis\3.2.8\mybatis-3.2.8.jar;C:\Users\Administrator\.m2\repository\org\mybatis\mybatis-spring\1.2.2\mybatis-spring-1.2.2.jar;C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\5.1.29\mysql-connector-java-5.1.29.jar;C:\Users\Administrator\.m2\repository\commons-dbcp\commons-dbcp\1.2.2\commons-dbcp-1.2.2.jar;C:\Users\Administrator\.m2\repository\commons-pool\commons-pool\1.3\commons-pool-1.3.jar;C:\Users\Administrator\.m2\repository\com\alibaba\fastjson\1.2.22\fastjson-1.2.22.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.18\slf4j-api-1.7.18.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-log4j12\1.7.18\slf4j-log4j12-1.7.18.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.0\jackson-core-2.8.0.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.0\jackson-databind-2.8.0.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\Administrator\.m2\repository\commons-fileupload\commons-fileupload\1.3.1\commons-fileupload-1.3.1.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Administrator\.m2\repository\org\quartz-scheduler\quartz\2.2.1\quartz-2.2.1.jar;C:\Users\Administrator\.m2\repository\c3p0\c3p0\0.9.1.1\c3p0-0.9.1.1.jar;C:\Users\Administrator\.m2\repository\org\apache\shiro\shiro-core\1.3.2\shiro-core-1.3.2.jar;C:\Users\Administrator\.m2\repository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar;C:\Users\Administrator\.m2\repository\org\apache\shiro\shiro-web\1.3.2\shiro-web-1.3.2.jar;C:\Users\Administrator\.m2\repository\org\apache\shiro\shiro-spring\1.3.2\shiro-spring-1.3.2.jar;C:\Users\Administrator\.m2\repository\org\apache\shiro\shiro-ehcache\1.3.2\shiro-ehcache-1.3.2.jar;C:\Users\Administrator\.m2\repository\net\sf\ehcache\ehcache-core\2.5.3\ehcache-core-2.5.3.jar;C:\Users\Administrator\.m2\repository\org\apache\zookeeper\zookeeper\3.4.9\zookeeper-3.4.9.jar;C:\Users\Administrator\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\Administrator\.m2\repository\io\netty\netty\3.10.5.Final\netty-3.10.5.Final.jar;C:\Users\Administrator\.m2\repository\com\alibaba\dubbo\2.5.3\dubbo-2.5.3.jar;C:\Users\Administrator\.m2\repository\org\javassist\javassist\3.15.0-GA\javassist-3.15.0-GA.jar;C:\Users\Administrator\.m2\repository\org\jboss\netty\netty\3.2.5.Final\netty-3.2.5.Final.jar;C:\Users\Administrator\.m2\repository\com\101tec\zkclient\0.10\zkclient-0.10.jar
+[INFO ]_2018-01-09 14:52:18 :Client environment:java.library.path=F:\javajdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:/javajdk/bin/../jre/bin/server;F:/javajdk/bin/../jre/bin;F:/javajdk/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\javajdk\bin;F:\apache-maven-3.5.0\bin;F:\rose\common;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\HP\LoadRunner\strawberry-perl\perl\bin;F:\git\Git\cmd;F:\VisualC++6.0\Tools\WinNT;F:\VisualC++6.0\MSDev98\Bin;F:\VisualC++6.0\Tools;F:\Microsoft Visual Studio\VC98\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;F:\eclipse\eclipse;;.
+[INFO ]_2018-01-09 14:52:18 :Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+[INFO ]_2018-01-09 14:52:18 :Client environment:java.compiler=<NA>
+[INFO ]_2018-01-09 14:52:18 :Client environment:os.name=Windows 10
+[INFO ]_2018-01-09 14:52:18 :Client environment:os.arch=amd64
+[INFO ]_2018-01-09 14:52:18 :Client environment:os.version=10.0
+[INFO ]_2018-01-09 14:52:18 :Client environment:user.name=Administrator
+[INFO ]_2018-01-09 14:52:18 :Client environment:user.home=C:\Users\Administrator
+[INFO ]_2018-01-09 14:52:18 :Client environment:user.dir=C:\Users\Administrator\Desktop\dubbodemo\dubbodemo\dubbo-consumer
+[INFO ]_2018-01-09 14:52:18 :Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@3d74bf60
+[DEBUG]_2018-01-09 14:52:18 :zookeeper.disableAutoWatchReset is false
+[DEBUG]_2018-01-09 14:52:19 :Awaiting connection to Zookeeper server
+[INFO ]_2018-01-09 14:52:19 :Waiting for keeper state SyncConnected
+[INFO ]_2018-01-09 14:52:19 :Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ]_2018-01-09 14:52:19 :Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+[DEBUG]_2018-01-09 14:52:19 :Session establishment request sent on 127.0.0.1/127.0.0.1:2181
+[INFO ]_2018-01-09 14:52:19 :Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x100005496c70003, negotiated timeout = 30000
+[DEBUG]_2018-01-09 14:52:19 :Received event: WatchedEvent state:SyncConnected type:None path:null
+[INFO ]_2018-01-09 14:52:19 :zookeeper state changed (SyncConnected)
+[DEBUG]_2018-01-09 14:52:19 :Leaving process event
+[DEBUG]_2018-01-09 14:52:19 :State is SyncConnected
+[DEBUG]_2018-01-09 14:52:19 : [DUBBO] package com.alibaba.dubbo.rpc.cluster;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class RouterFactory$Adpative implements com.alibaba.dubbo.rpc.cluster.RouterFactory {
+public com.alibaba.dubbo.rpc.cluster.Router getRouter(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getProtocol();
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.cluster.RouterFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.cluster.RouterFactory extension = (com.alibaba.dubbo.rpc.cluster.RouterFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.cluster.RouterFactory.class).getExtension(extName);
+return extension.getRouter(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+[DEBUG]_2018-01-09 14:52:19 : [DUBBO] package com.alibaba.dubbo.rpc.cluster;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ConfiguratorFactory$Adpative implements com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory {
+public com.alibaba.dubbo.rpc.cluster.Configurator getConfigurator(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getProtocol();
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory extension = (com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory.class).getExtension(extName);
+return extension.getConfigurator(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ]_2018-01-09 14:52:19 : [DUBBO] Register: consumer://192.168.88.11/com.Quantum.service.DemoService?application=demotest-consumer&category=consumers&check=false&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=2640&side=consumer&timestamp=1515480738562, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 14:52:19 :Reading reply sessionid:0x100005496c70003, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,34,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:52:19 :Reading reply sessionid:0x100005496c70003, packet:: clientPath:null serverPath:null finished:false header:: 2,1  replyHeader:: 2,35,-110  request:: '/dubbo/com.Quantum.service.DemoService,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:52:19 :Reading reply sessionid:0x100005496c70003, packet:: clientPath:null serverPath:null finished:false header:: 3,1  replyHeader:: 3,36,-110  request:: '/dubbo/com.Quantum.service.DemoService/consumers,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:52:19 :Reading reply sessionid:0x100005496c70003, packet:: clientPath:null serverPath:null finished:false header:: 4,1  replyHeader:: 4,37,0  request:: '/dubbo/com.Quantum.service.DemoService/consumers/consumer%253A%252F%252F192.168.88.11%252Fcom.Quantum.service.DemoService%253Fapplication%253Ddemotest-consumer%2526category%253Dconsumers%2526check%253Dfalse%2526dubbo%253D2.5.3%2526interface%253Dcom.Quantum.service.DemoService%2526methods%253DgetPermissions%2526organization%253Ddubbox%2526owner%253Dprogrammer%2526pid%253D2640%2526side%253Dconsumer%2526timestamp%253D1515480738562,,v{s{31,s{'world,'anyone}}},1  response:: '/dubbo/com.Quantum.service.DemoService/consumers/consumer%253A%252F%252F192.168.88.11%252Fcom.Quantum.service.DemoService%253Fapplication%253Ddemotest-consumer%2526category%253Dconsumers%2526check%253Dfalse%2526dubbo%253D2.5.3%2526interface%253Dcom.Quantum.service.DemoService%2526methods%253DgetPermissions%2526organization%253Ddubbox%2526owner%253Dprogrammer%2526pid%253D2640%2526side%253Dconsumer%2526timestamp%253D1515480738562 
+[INFO ]_2018-01-09 14:52:19 : [DUBBO] Subscribe: consumer://192.168.88.11/com.Quantum.service.DemoService?application=demotest-consumer&category=providers,configurators,routers&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=2640&side=consumer&timestamp=1515480738562, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 14:52:19 :Reading reply sessionid:0x100005496c70003, packet:: clientPath:null serverPath:null finished:false header:: 5,1  replyHeader:: 5,38,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:52:19 :Reading reply sessionid:0x100005496c70003, packet:: clientPath:null serverPath:null finished:false header:: 6,1  replyHeader:: 6,39,-110  request:: '/dubbo/com.Quantum.service.DemoService,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:52:19 :Reading reply sessionid:0x100005496c70003, packet:: clientPath:null serverPath:null finished:false header:: 7,1  replyHeader:: 7,40,-110  request:: '/dubbo/com.Quantum.service.DemoService/providers,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:52:19 :Reading reply sessionid:0x100005496c70003, packet:: clientPath:null serverPath:null finished:false header:: 8,3  replyHeader:: 8,40,0  request:: '/dubbo/com.Quantum.service.DemoService/providers,T  response:: s{4,4,1515480376014,1515480376014,0,3,0,0,0,1,29} 
+[DEBUG]_2018-01-09 14:52:19 :Reading reply sessionid:0x100005496c70003, packet:: clientPath:null serverPath:null finished:false header:: 9,8  replyHeader:: 9,40,0  request:: '/dubbo/com.Quantum.service.DemoService/providers,T  response:: v{'dubbo%253A%252F%252F192.168.88.11%253A20880%252Fcom.Quantum.service.DemoService%253Fanyhost%253Dtrue%2526application%253Ddemotest-provider%2526dubbo%253D2.5.3%2526interface%253Dcom.Quantum.service.DemoService%2526methods%253DgetPermissions%2526organization%253Ddubbox%2526owner%253Dprogrammer%2526pid%253D4180%2526side%253Dprovider%2526timestamp%253D1515480725656} 
+[DEBUG]_2018-01-09 14:52:19 :Reading reply sessionid:0x100005496c70003, packet:: clientPath:null serverPath:null finished:false header:: 10,1  replyHeader:: 10,41,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:52:19 :Reading reply sessionid:0x100005496c70003, packet:: clientPath:null serverPath:null finished:false header:: 11,1  replyHeader:: 11,42,-110  request:: '/dubbo/com.Quantum.service.DemoService,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:52:19 :Reading reply sessionid:0x100005496c70003, packet:: clientPath:null serverPath:null finished:false header:: 12,1  replyHeader:: 12,43,-110  request:: '/dubbo/com.Quantum.service.DemoService/configurators,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:52:19 :Reading reply sessionid:0x100005496c70003, packet:: clientPath:null serverPath:null finished:false header:: 13,3  replyHeader:: 13,43,0  request:: '/dubbo/com.Quantum.service.DemoService/configurators,T  response:: s{8,8,1515480376112,1515480376112,0,0,0,0,0,0,8} 
+[DEBUG]_2018-01-09 14:52:19 :Reading reply sessionid:0x100005496c70003, packet:: clientPath:null serverPath:null finished:false header:: 14,8  replyHeader:: 14,43,0  request:: '/dubbo/com.Quantum.service.DemoService/configurators,T  response:: v{} 
+[DEBUG]_2018-01-09 14:52:19 :Reading reply sessionid:0x100005496c70003, packet:: clientPath:null serverPath:null finished:false header:: 15,1  replyHeader:: 15,44,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:52:19 :Reading reply sessionid:0x100005496c70003, packet:: clientPath:null serverPath:null finished:false header:: 16,1  replyHeader:: 16,45,-110  request:: '/dubbo/com.Quantum.service.DemoService,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:52:19 :Reading reply sessionid:0x100005496c70003, packet:: clientPath:null serverPath:null finished:false header:: 17,1  replyHeader:: 17,46,-110  request:: '/dubbo/com.Quantum.service.DemoService/routers,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 14:52:19 :Reading reply sessionid:0x100005496c70003, packet:: clientPath:null serverPath:null finished:false header:: 18,3  replyHeader:: 18,46,0  request:: '/dubbo/com.Quantum.service.DemoService/routers,T  response:: s{22,22,1515480399270,1515480399270,0,0,0,0,0,0,22} 
+[DEBUG]_2018-01-09 14:52:19 :Reading reply sessionid:0x100005496c70003, packet:: clientPath:null serverPath:null finished:false header:: 19,8  replyHeader:: 19,46,0  request:: '/dubbo/com.Quantum.service.DemoService/routers,T  response:: v{} 
+[INFO ]_2018-01-09 14:52:19 : [DUBBO] Notify urls for subscribe url consumer://192.168.88.11/com.Quantum.service.DemoService?application=demotest-consumer&category=providers,configurators,routers&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=2640&side=consumer&timestamp=1515480738562, urls: [dubbo://192.168.88.11:20880/com.Quantum.service.DemoService?anyhost=true&application=demotest-provider&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=4180&side=provider&timestamp=1515480725656, empty://192.168.88.11/com.Quantum.service.DemoService?application=demotest-consumer&category=configurators&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=2640&side=consumer&timestamp=1515480738562, empty://192.168.88.11/com.Quantum.service.DemoService?application=demotest-consumer&category=routers&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=2640&side=consumer&timestamp=1515480738562], dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 14:52:19 : [DUBBO] package com.alibaba.dubbo.remoting;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Transporter$Adpative implements com.alibaba.dubbo.remoting.Transporter {
+public com.alibaba.dubbo.remoting.Client connect(com.alibaba.dubbo.common.URL arg0, com.alibaba.dubbo.remoting.ChannelHandler arg1) throws com.alibaba.dubbo.common.URL {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("client", url.getParameter("transporter", "netty"));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.Transporter) name from url(" + url.toString() + ") use keys([client, transporter])");
+com.alibaba.dubbo.remoting.Transporter extension = (com.alibaba.dubbo.remoting.Transporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Transporter.class).getExtension(extName);
+return extension.connect(arg0, arg1);
+}
+public com.alibaba.dubbo.remoting.Server bind(com.alibaba.dubbo.common.URL arg0, com.alibaba.dubbo.remoting.ChannelHandler arg1) throws com.alibaba.dubbo.common.URL {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("server", url.getParameter("transporter", "netty"));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.Transporter) name from url(" + url.toString() + ") use keys([server, transporter])");
+com.alibaba.dubbo.remoting.Transporter extension = (com.alibaba.dubbo.remoting.Transporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Transporter.class).getExtension(extName);
+return extension.bind(arg0, arg1);
+}
+}, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 14:52:20 : [DUBBO] package com.alibaba.dubbo.remoting;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Dispatcher$Adpative implements com.alibaba.dubbo.remoting.Dispatcher {
+public com.alibaba.dubbo.remoting.ChannelHandler dispatch(com.alibaba.dubbo.remoting.ChannelHandler arg0, com.alibaba.dubbo.common.URL arg1) {
+if (arg1 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg1;
+String extName = url.getParameter("dispatcher", url.getParameter("dispather", url.getParameter("channel.handler", "all")));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.Dispatcher) name from url(" + url.toString() + ") use keys([dispatcher, dispather, channel.handler])");
+com.alibaba.dubbo.remoting.Dispatcher extension = (com.alibaba.dubbo.remoting.Dispatcher)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Dispatcher.class).getExtension(extName);
+return extension.dispatch(arg0, arg1);
+}
+}, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 14:52:20 : [DUBBO] package com.alibaba.dubbo.common.threadpool;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ThreadPool$Adpative implements com.alibaba.dubbo.common.threadpool.ThreadPool {
+public java.util.concurrent.Executor getExecutor(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("threadpool", "fixed");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.common.threadpool.ThreadPool) name from url(" + url.toString() + ") use keys([threadpool])");
+com.alibaba.dubbo.common.threadpool.ThreadPool extension = (com.alibaba.dubbo.common.threadpool.ThreadPool)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.common.threadpool.ThreadPool.class).getExtension(extName);
+return extension.getExecutor(arg0);
+}
+}, dubbo version: 2.5.3, current host: 192.168.88.11
+[INFO ]_2018-01-09 14:52:20 : [DUBBO] Successed connect to server /192.168.88.11:20880 from NettyClient 192.168.88.11 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x7c90f9e2, /192.168.88.11:20067 => /192.168.88.11:20880]], dubbo version: 2.5.3, current host: 192.168.88.11
+[INFO ]_2018-01-09 14:52:20 : [DUBBO] Start NettyClient SC-201708242216/192.168.88.11 connect to the server /192.168.88.11:20880, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 14:52:20 : [DUBBO] package com.alibaba.dubbo.cache;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class CacheFactory$Adpative implements com.alibaba.dubbo.cache.CacheFactory {
+public com.alibaba.dubbo.cache.Cache getCache(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("cache", "lru");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.cache.CacheFactory) name from url(" + url.toString() + ") use keys([cache])");
+com.alibaba.dubbo.cache.CacheFactory extension = (com.alibaba.dubbo.cache.CacheFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.cache.CacheFactory.class).getExtension(extName);
+return extension.getCache(arg0);
+}
+}, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 14:52:20 : [DUBBO] package com.alibaba.dubbo.monitor;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class MonitorFactory$Adpative implements com.alibaba.dubbo.monitor.MonitorFactory {
+public com.alibaba.dubbo.monitor.Monitor getMonitor(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.monitor.MonitorFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.monitor.MonitorFactory extension = (com.alibaba.dubbo.monitor.MonitorFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.monitor.MonitorFactory.class).getExtension(extName);
+return extension.getMonitor(arg0);
+}
+}, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 14:52:20 : [DUBBO] package com.alibaba.dubbo.validation;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Validation$Adpative implements com.alibaba.dubbo.validation.Validation {
+public com.alibaba.dubbo.validation.Validator getValidator(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("validation", "jvalidation");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.validation.Validation) name from url(" + url.toString() + ") use keys([validation])");
+com.alibaba.dubbo.validation.Validation extension = (com.alibaba.dubbo.validation.Validation)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.validation.Validation.class).getExtension(extName);
+return extension.getValidator(arg0);
+}
+}, dubbo version: 2.5.3, current host: 192.168.88.11
+[INFO ]_2018-01-09 14:52:20 : [DUBBO] Refer dubbo service com.Quantum.service.DemoService from url zookeeper://localhost:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=demotest-consumer&check=false&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=2640&side=consumer&timestamp=1515480738562, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 14:52:20 : [DUBBO] Decode decodeable message com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 14:52:29 :Got ping response for sessionid: 0x100005496c70003 after 0ms
+[DEBUG]_2018-01-09 15:00:30 :Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG]_2018-01-09 15:00:30 :Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG]_2018-01-09 15:00:30 :Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[INFO ]_2018-01-09 15:00:30 :Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@606d8acf: startup date [Tue Jan 09 15:00:30 CST 2018]; root of context hierarchy
+[DEBUG]_2018-01-09 15:00:30 :Adding [systemProperties] PropertySource with lowest search precedence
+[DEBUG]_2018-01-09 15:00:30 :Adding [systemEnvironment] PropertySource with lowest search precedence
+[DEBUG]_2018-01-09 15:00:30 :Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[INFO ]_2018-01-09 15:00:30 :Loading XML bean definitions from class path resource [consumer.xml]
+[DEBUG]_2018-01-09 15:00:30 :Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[DEBUG]_2018-01-09 15:00:30 :Loading schema mappings from [META-INF/spring.schemas]
+[DEBUG]_2018-01-09 15:00:30 :Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/cache/spring-cache-4.2.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-4.2.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.0.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/task/spring-task-4.2.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-4.2.xsd=org/springframework/transaction/config/spring-tx-4.2.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://code.alibabatech.com/schema/dubbo/dubbo.xsd=META-INF/dubbo.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/util/spring-util-4.2.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm-4.2.xsd=org/springframework/oxm/config/spring-oxm-4.2.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm.xsd=org/springframework/oxm/config/spring-oxm-4.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/oxm/spring-oxm-4.1.xsd=org/springframework/oxm/config/spring-oxm-4.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-4.2.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.2.xsd=org/springframework/oxm/config/spring-oxm-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-4.2.xsd=org/springframework/aop/config/spring-aop-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.2.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd=org/springframework/web/servlet/config/spring-mvc-4.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm-4.0.xsd=org/springframework/oxm/config/spring-oxm-4.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.2.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.1.xsd=org/springframework/oxm/config/spring-oxm-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.2.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-4.2.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.2.xsd}
+[DEBUG]_2018-01-09 15:00:30 :Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.2.xsd
+[DEBUG]_2018-01-09 15:00:30 :Found XML schema [http://code.alibabatech.com/schema/dubbo/dubbo.xsd] in classpath: META-INF/dubbo.xsd
+[DEBUG]_2018-01-09 15:00:30 :Loading bean definitions
+[DEBUG]_2018-01-09 15:00:30 :Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://code.alibabatech.com/schema/dubbo=com.alibaba.dubbo.config.spring.schema.DubboNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/oxm=org.springframework.oxm.config.OxmNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+[INFO ]_2018-01-09 15:00:30 :using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[DEBUG]_2018-01-09 15:00:30 :Loaded 3 bean definitions from location pattern [consumer.xml]
+[DEBUG]_2018-01-09 15:00:30 :Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@606d8acf: org.springframework.beans.factory.support.DefaultListableBeanFactory@5383967b: defining beans [demotest-consumer,com.alibaba.dubbo.config.RegistryConfig,permissionService]; root of factory hierarchy
+[DEBUG]_2018-01-09 15:00:30 :Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@7494e528]
+[DEBUG]_2018-01-09 15:00:30 :Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@4f063c0a]
+[DEBUG]_2018-01-09 15:00:30 :Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5383967b: defining beans [demotest-consumer,com.alibaba.dubbo.config.RegistryConfig,permissionService]; root of factory hierarchy
+[DEBUG]_2018-01-09 15:00:30 :Creating shared instance of singleton bean 'demotest-consumer'
+[DEBUG]_2018-01-09 15:00:30 :Creating instance of bean 'demotest-consumer'
+[DEBUG]_2018-01-09 15:00:30 :Eagerly caching bean 'demotest-consumer' to allow for resolving potential circular references
+[DEBUG]_2018-01-09 15:00:30 :Finished creating instance of bean 'demotest-consumer'
+[DEBUG]_2018-01-09 15:00:30 :Creating shared instance of singleton bean 'com.alibaba.dubbo.config.RegistryConfig'
+[DEBUG]_2018-01-09 15:00:30 :Creating instance of bean 'com.alibaba.dubbo.config.RegistryConfig'
+[DEBUG]_2018-01-09 15:00:30 :Eagerly caching bean 'com.alibaba.dubbo.config.RegistryConfig' to allow for resolving potential circular references
+[DEBUG]_2018-01-09 15:00:30 :Finished creating instance of bean 'com.alibaba.dubbo.config.RegistryConfig'
+[DEBUG]_2018-01-09 15:00:30 :Creating shared instance of singleton bean 'permissionService'
+[DEBUG]_2018-01-09 15:00:30 :Creating instance of bean 'permissionService'
+[DEBUG]_2018-01-09 15:00:31 : [DUBBO] package com.alibaba.dubbo.rpc;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Protocol$Adpative implements com.alibaba.dubbo.rpc.Protocol {
+public void destroy() {throw new UnsupportedOperationException("method public abstract void com.alibaba.dubbo.rpc.Protocol.destroy() of interface com.alibaba.dubbo.rpc.Protocol is not adaptive method!");
+}
+public int getDefaultPort() {throw new UnsupportedOperationException("method public abstract int com.alibaba.dubbo.rpc.Protocol.getDefaultPort() of interface com.alibaba.dubbo.rpc.Protocol is not adaptive method!");
+}
+public com.alibaba.dubbo.rpc.Invoker refer(java.lang.Class arg0, com.alibaba.dubbo.common.URL arg1) throws java.lang.Class {
+if (arg1 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg1;
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.Protocol) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.Protocol extension = (com.alibaba.dubbo.rpc.Protocol)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.Protocol.class).getExtension(extName);
+return extension.refer(arg0, arg1);
+}
+public com.alibaba.dubbo.rpc.Exporter export(com.alibaba.dubbo.rpc.Invoker arg0) throws com.alibaba.dubbo.rpc.Invoker {
+if (arg0 == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument == null");
+if (arg0.getUrl() == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument getUrl() == null");com.alibaba.dubbo.common.URL url = arg0.getUrl();
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.Protocol) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.Protocol extension = (com.alibaba.dubbo.rpc.Protocol)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.Protocol.class).getExtension(extName);
+return extension.export(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+[DEBUG]_2018-01-09 15:00:31 : [DUBBO] package com.alibaba.dubbo.rpc.cluster;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Cluster$Adpative implements com.alibaba.dubbo.rpc.cluster.Cluster {
+public com.alibaba.dubbo.rpc.Invoker join(com.alibaba.dubbo.rpc.cluster.Directory arg0) throws com.alibaba.dubbo.rpc.cluster.Directory {
+if (arg0 == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.cluster.Directory argument == null");
+if (arg0.getUrl() == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.cluster.Directory argument getUrl() == null");com.alibaba.dubbo.common.URL url = arg0.getUrl();
+String extName = url.getParameter("cluster", "failover");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.cluster.Cluster) name from url(" + url.toString() + ") use keys([cluster])");
+com.alibaba.dubbo.rpc.cluster.Cluster extension = (com.alibaba.dubbo.rpc.cluster.Cluster)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.cluster.Cluster.class).getExtension(extName);
+return extension.join(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+[DEBUG]_2018-01-09 15:00:31 : [DUBBO] package com.alibaba.dubbo.rpc;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ProxyFactory$Adpative implements com.alibaba.dubbo.rpc.ProxyFactory {
+public java.lang.Object getProxy(com.alibaba.dubbo.rpc.Invoker arg0) throws com.alibaba.dubbo.rpc.Invoker {
+if (arg0 == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument == null");
+if (arg0.getUrl() == null) throw new IllegalArgumentException("com.alibaba.dubbo.rpc.Invoker argument getUrl() == null");com.alibaba.dubbo.common.URL url = arg0.getUrl();
+String extName = url.getParameter("proxy", "javassist");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.ProxyFactory) name from url(" + url.toString() + ") use keys([proxy])");
+com.alibaba.dubbo.rpc.ProxyFactory extension = (com.alibaba.dubbo.rpc.ProxyFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.ProxyFactory.class).getExtension(extName);
+return extension.getProxy(arg0);
+}
+public com.alibaba.dubbo.rpc.Invoker getInvoker(java.lang.Object arg0, java.lang.Class arg1, com.alibaba.dubbo.common.URL arg2) throws java.lang.Object {
+if (arg2 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg2;
+String extName = url.getParameter("proxy", "javassist");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.ProxyFactory) name from url(" + url.toString() + ") use keys([proxy])");
+com.alibaba.dubbo.rpc.ProxyFactory extension = (com.alibaba.dubbo.rpc.ProxyFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.ProxyFactory.class).getExtension(extName);
+return extension.getInvoker(arg0, arg1, arg2);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+[DEBUG]_2018-01-09 15:00:31 :Eagerly caching bean 'permissionService' to allow for resolving potential circular references
+[DEBUG]_2018-01-09 15:00:31 :Invoking afterPropertiesSet() on bean with name 'permissionService'
+[DEBUG]_2018-01-09 15:00:31 :Returning cached instance of singleton bean 'demotest-consumer'
+[DEBUG]_2018-01-09 15:00:31 :Returning cached instance of singleton bean 'com.alibaba.dubbo.config.RegistryConfig'
+[DEBUG]_2018-01-09 15:00:31 :Finished creating instance of bean 'permissionService'
+[DEBUG]_2018-01-09 15:00:31 :Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@4b44655e]
+[DEBUG]_2018-01-09 15:00:31 :Returning cached instance of singleton bean 'lifecycleProcessor'
+[DEBUG]_2018-01-09 15:00:31 :Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+[DEBUG]_2018-01-09 15:00:31 :Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+[DEBUG]_2018-01-09 15:00:31 :Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+[DEBUG]_2018-01-09 15:00:31 :Returning cached instance of singleton bean 'lifecycleProcessor'
+[DEBUG]_2018-01-09 15:00:31 :Returning cached instance of singleton bean 'permissionService'
+[DEBUG]_2018-01-09 15:00:31 : [DUBBO] package com.alibaba.dubbo.registry;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class RegistryFactory$Adpative implements com.alibaba.dubbo.registry.RegistryFactory {
+public com.alibaba.dubbo.registry.Registry getRegistry(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.registry.RegistryFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.registry.RegistryFactory extension = (com.alibaba.dubbo.registry.RegistryFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.registry.RegistryFactory.class).getExtension(extName);
+return extension.getRegistry(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+[DEBUG]_2018-01-09 15:00:31 : [DUBBO] package com.alibaba.dubbo.remoting.zookeeper;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ZookeeperTransporter$Adpative implements com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter {
+public com.alibaba.dubbo.remoting.zookeeper.ZookeeperClient connect(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("client", url.getParameter("transporter", "zkclient"));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter) name from url(" + url.toString() + ") use keys([client, transporter])");
+com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter extension = (com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter.class).getExtension(extName);
+return extension.connect(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ]_2018-01-09 15:00:31 : [DUBBO] Load registry store file C:\Users\Administrator\.dubbo\dubbo-registry-localhost.cache, data: {com.Quantum.service.DemoService=empty://192.168.88.11:20880/com.Quantum.service.DemoService?anyhost=true&application=demotest-provider&category=configurators&check=false&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=1912&side=provider&timestamp=1515481216955}, dubbo version: 2.5.3, current host: 127.0.0.1
+[DEBUG]_2018-01-09 15:00:31 :Creating new ZookKeeper instance to connect to localhost:2181.
+[INFO ]_2018-01-09 15:00:31 :Starting ZkClient event thread.
+[INFO ]_2018-01-09 15:00:31 :Client environment:zookeeper.version=3.4.9-1757313, built on 08/23/2016 06:50 GMT
+[INFO ]_2018-01-09 15:00:31 :Client environment:host.name=SC-201708242216
+[INFO ]_2018-01-09 15:00:31 :Client environment:java.version=1.8.0_144
+[INFO ]_2018-01-09 15:00:31 :Client environment:java.vendor=Oracle Corporation
+[INFO ]_2018-01-09 15:00:31 :Client environment:java.home=F:\javajdk\jre
+[INFO ]_2018-01-09 15:00:31 :Client environment:java.class.path=C:\Users\Administrator\Desktop\dubbodemo\dubbodemo\dubbo-consumer\target\classes;C:\Users\Administrator\Desktop\dubbodemo\dubbodemo\dubbo-api\target\classes;C:\Users\Administrator\.m2\repository\jstl\jstl\1.2\jstl-1.2.jar;C:\Users\Administrator\.m2\repository\javax\javaee-api\7.0\javaee-api-7.0.jar;C:\Users\Administrator\.m2\repository\com\sun\mail\javax.mail\1.5.0\javax.mail-1.5.0.jar;C:\Users\Administrator\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-core\4.2.5.RELEASE\spring-core-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-web\4.2.5.RELEASE\spring-web-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-beans\4.2.5.RELEASE\spring-beans-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-oxm\4.2.5.RELEASE\spring-oxm-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-tx\4.2.5.RELEASE\spring-tx-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-jdbc\4.2.5.RELEASE\spring-jdbc-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-webmvc\4.2.5.RELEASE\spring-webmvc-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-expression\4.2.5.RELEASE\spring-expression-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-context\4.2.5.RELEASE\spring-context-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-context-support\4.2.5.RELEASE\spring-context-support-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-aop\4.2.5.RELEASE\spring-aop-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-test\4.2.5.RELEASE\spring-test-4.2.5.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\mybatis\mybatis\3.2.8\mybatis-3.2.8.jar;C:\Users\Administrator\.m2\repository\org\mybatis\mybatis-spring\1.2.2\mybatis-spring-1.2.2.jar;C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\5.1.29\mysql-connector-java-5.1.29.jar;C:\Users\Administrator\.m2\repository\commons-dbcp\commons-dbcp\1.2.2\commons-dbcp-1.2.2.jar;C:\Users\Administrator\.m2\repository\commons-pool\commons-pool\1.3\commons-pool-1.3.jar;C:\Users\Administrator\.m2\repository\com\alibaba\fastjson\1.2.22\fastjson-1.2.22.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.18\slf4j-api-1.7.18.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-log4j12\1.7.18\slf4j-log4j12-1.7.18.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.0\jackson-core-2.8.0.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.0\jackson-databind-2.8.0.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\Administrator\.m2\repository\commons-fileupload\commons-fileupload\1.3.1\commons-fileupload-1.3.1.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Administrator\.m2\repository\org\quartz-scheduler\quartz\2.2.1\quartz-2.2.1.jar;C:\Users\Administrator\.m2\repository\c3p0\c3p0\0.9.1.1\c3p0-0.9.1.1.jar;C:\Users\Administrator\.m2\repository\org\apache\shiro\shiro-core\1.3.2\shiro-core-1.3.2.jar;C:\Users\Administrator\.m2\repository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar;C:\Users\Administrator\.m2\repository\org\apache\shiro\shiro-web\1.3.2\shiro-web-1.3.2.jar;C:\Users\Administrator\.m2\repository\org\apache\shiro\shiro-spring\1.3.2\shiro-spring-1.3.2.jar;C:\Users\Administrator\.m2\repository\org\apache\shiro\shiro-ehcache\1.3.2\shiro-ehcache-1.3.2.jar;C:\Users\Administrator\.m2\repository\net\sf\ehcache\ehcache-core\2.5.3\ehcache-core-2.5.3.jar;C:\Users\Administrator\.m2\repository\org\apache\zookeeper\zookeeper\3.4.9\zookeeper-3.4.9.jar;C:\Users\Administrator\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\Administrator\.m2\repository\io\netty\netty\3.10.5.Final\netty-3.10.5.Final.jar;C:\Users\Administrator\.m2\repository\com\alibaba\dubbo\2.5.3\dubbo-2.5.3.jar;C:\Users\Administrator\.m2\repository\org\javassist\javassist\3.15.0-GA\javassist-3.15.0-GA.jar;C:\Users\Administrator\.m2\repository\org\jboss\netty\netty\3.2.5.Final\netty-3.2.5.Final.jar;C:\Users\Administrator\.m2\repository\com\101tec\zkclient\0.10\zkclient-0.10.jar
+[INFO ]_2018-01-09 15:00:31 :Client environment:java.library.path=F:\javajdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:/javajdk/bin/../jre/bin/server;F:/javajdk/bin/../jre/bin;F:/javajdk/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\javajdk\bin;F:\apache-maven-3.5.0\bin;F:\rose\common;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\HP\LoadRunner\strawberry-perl\perl\bin;F:\git\Git\cmd;F:\VisualC++6.0\Tools\WinNT;F:\VisualC++6.0\MSDev98\Bin;F:\VisualC++6.0\Tools;F:\Microsoft Visual Studio\VC98\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;F:\eclipse\eclipse;;.
+[INFO ]_2018-01-09 15:00:31 :Client environment:java.io.tmpdir=C:\Users\Administrator\AppData\Local\Temp\
+[INFO ]_2018-01-09 15:00:31 :Client environment:java.compiler=<NA>
+[INFO ]_2018-01-09 15:00:31 :Client environment:os.name=Windows 10
+[INFO ]_2018-01-09 15:00:31 :Client environment:os.arch=amd64
+[INFO ]_2018-01-09 15:00:31 :Client environment:os.version=10.0
+[INFO ]_2018-01-09 15:00:31 :Client environment:user.name=Administrator
+[INFO ]_2018-01-09 15:00:31 :Client environment:user.home=C:\Users\Administrator
+[INFO ]_2018-01-09 15:00:31 :Client environment:user.dir=C:\Users\Administrator\Desktop\dubbodemo\dubbodemo\dubbo-consumer
+[INFO ]_2018-01-09 15:00:31 :Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@15eb5ee5
+[DEBUG]_2018-01-09 15:00:31 :zookeeper.disableAutoWatchReset is false
+[DEBUG]_2018-01-09 15:00:32 :Awaiting connection to Zookeeper server
+[INFO ]_2018-01-09 15:00:32 :Waiting for keeper state SyncConnected
+[INFO ]_2018-01-09 15:00:32 :Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO ]_2018-01-09 15:00:32 :Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+[DEBUG]_2018-01-09 15:00:32 :Session establishment request sent on 127.0.0.1/127.0.0.1:2181
+[INFO ]_2018-01-09 15:00:32 :Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x100005496c70006, negotiated timeout = 30000
+[DEBUG]_2018-01-09 15:00:32 :Received event: WatchedEvent state:SyncConnected type:None path:null
+[INFO ]_2018-01-09 15:00:32 :zookeeper state changed (SyncConnected)
+[DEBUG]_2018-01-09 15:00:32 :Leaving process event
+[DEBUG]_2018-01-09 15:00:32 :State is SyncConnected
+[DEBUG]_2018-01-09 15:00:32 : [DUBBO] package com.alibaba.dubbo.rpc.cluster;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class RouterFactory$Adpative implements com.alibaba.dubbo.rpc.cluster.RouterFactory {
+public com.alibaba.dubbo.rpc.cluster.Router getRouter(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getProtocol();
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.cluster.RouterFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.cluster.RouterFactory extension = (com.alibaba.dubbo.rpc.cluster.RouterFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.cluster.RouterFactory.class).getExtension(extName);
+return extension.getRouter(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+[DEBUG]_2018-01-09 15:00:33 : [DUBBO] package com.alibaba.dubbo.rpc.cluster;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ConfiguratorFactory$Adpative implements com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory {
+public com.alibaba.dubbo.rpc.cluster.Configurator getConfigurator(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getProtocol();
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory extension = (com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.cluster.ConfiguratorFactory.class).getExtension(extName);
+return extension.getConfigurator(arg0);
+}
+}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO ]_2018-01-09 15:00:33 : [DUBBO] Register: consumer://192.168.88.11/com.Quantum.service.DemoService?application=demotest-consumer&category=consumers&check=false&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=2676&side=consumer&timestamp=1515481231536, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 15:00:33 :Reading reply sessionid:0x100005496c70006, packet:: clientPath:null serverPath:null finished:false header:: 1,1  replyHeader:: 1,74,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 15:00:33 :Reading reply sessionid:0x100005496c70006, packet:: clientPath:null serverPath:null finished:false header:: 2,1  replyHeader:: 2,75,-110  request:: '/dubbo/com.Quantum.service.DemoService,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 15:00:33 :Reading reply sessionid:0x100005496c70006, packet:: clientPath:null serverPath:null finished:false header:: 3,1  replyHeader:: 3,76,-110  request:: '/dubbo/com.Quantum.service.DemoService/consumers,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 15:00:33 :Reading reply sessionid:0x100005496c70006, packet:: clientPath:null serverPath:null finished:false header:: 4,1  replyHeader:: 4,77,0  request:: '/dubbo/com.Quantum.service.DemoService/consumers/consumer%253A%252F%252F192.168.88.11%252Fcom.Quantum.service.DemoService%253Fapplication%253Ddemotest-consumer%2526category%253Dconsumers%2526check%253Dfalse%2526dubbo%253D2.5.3%2526interface%253Dcom.Quantum.service.DemoService%2526methods%253DgetPermissions%2526organization%253Ddubbox%2526owner%253Dprogrammer%2526pid%253D2676%2526side%253Dconsumer%2526timestamp%253D1515481231536,,v{s{31,s{'world,'anyone}}},1  response:: '/dubbo/com.Quantum.service.DemoService/consumers/consumer%253A%252F%252F192.168.88.11%252Fcom.Quantum.service.DemoService%253Fapplication%253Ddemotest-consumer%2526category%253Dconsumers%2526check%253Dfalse%2526dubbo%253D2.5.3%2526interface%253Dcom.Quantum.service.DemoService%2526methods%253DgetPermissions%2526organization%253Ddubbox%2526owner%253Dprogrammer%2526pid%253D2676%2526side%253Dconsumer%2526timestamp%253D1515481231536 
+[INFO ]_2018-01-09 15:00:33 : [DUBBO] Subscribe: consumer://192.168.88.11/com.Quantum.service.DemoService?application=demotest-consumer&category=providers,configurators,routers&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=2676&side=consumer&timestamp=1515481231536, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 15:00:33 :Reading reply sessionid:0x100005496c70006, packet:: clientPath:null serverPath:null finished:false header:: 5,1  replyHeader:: 5,78,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 15:00:33 :Reading reply sessionid:0x100005496c70006, packet:: clientPath:null serverPath:null finished:false header:: 6,1  replyHeader:: 6,79,-110  request:: '/dubbo/com.Quantum.service.DemoService,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 15:00:33 :Reading reply sessionid:0x100005496c70006, packet:: clientPath:null serverPath:null finished:false header:: 7,1  replyHeader:: 7,80,-110  request:: '/dubbo/com.Quantum.service.DemoService/providers,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 15:00:33 :Reading reply sessionid:0x100005496c70006, packet:: clientPath:null serverPath:null finished:false header:: 8,3  replyHeader:: 8,80,0  request:: '/dubbo/com.Quantum.service.DemoService/providers,T  response:: s{4,4,1515480376014,1515480376014,0,5,0,0,0,1,69} 
+[DEBUG]_2018-01-09 15:00:33 :Reading reply sessionid:0x100005496c70006, packet:: clientPath:null serverPath:null finished:false header:: 9,8  replyHeader:: 9,80,0  request:: '/dubbo/com.Quantum.service.DemoService/providers,T  response:: v{'dubbo%253A%252F%252F192.168.88.11%253A20880%252Fcom.Quantum.service.DemoService%253Fanyhost%253Dtrue%2526application%253Ddemotest-provider%2526dubbo%253D2.5.3%2526interface%253Dcom.Quantum.service.DemoService%2526methods%253DgetPermissions%2526organization%253Ddubbox%2526owner%253Dprogrammer%2526pid%253D1912%2526side%253Dprovider%2526timestamp%253D1515481216955} 
+[DEBUG]_2018-01-09 15:00:33 :Reading reply sessionid:0x100005496c70006, packet:: clientPath:null serverPath:null finished:false header:: 10,1  replyHeader:: 10,81,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 15:00:33 :Reading reply sessionid:0x100005496c70006, packet:: clientPath:null serverPath:null finished:false header:: 11,1  replyHeader:: 11,82,-110  request:: '/dubbo/com.Quantum.service.DemoService,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 15:00:33 :Reading reply sessionid:0x100005496c70006, packet:: clientPath:null serverPath:null finished:false header:: 12,1  replyHeader:: 12,83,-110  request:: '/dubbo/com.Quantum.service.DemoService/configurators,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 15:00:33 :Reading reply sessionid:0x100005496c70006, packet:: clientPath:null serverPath:null finished:false header:: 13,3  replyHeader:: 13,83,0  request:: '/dubbo/com.Quantum.service.DemoService/configurators,T  response:: s{8,8,1515480376112,1515480376112,0,0,0,0,0,0,8} 
+[DEBUG]_2018-01-09 15:00:33 :Reading reply sessionid:0x100005496c70006, packet:: clientPath:null serverPath:null finished:false header:: 14,8  replyHeader:: 14,83,0  request:: '/dubbo/com.Quantum.service.DemoService/configurators,T  response:: v{} 
+[DEBUG]_2018-01-09 15:00:33 :Reading reply sessionid:0x100005496c70006, packet:: clientPath:null serverPath:null finished:false header:: 15,1  replyHeader:: 15,84,-110  request:: '/dubbo,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 15:00:33 :Reading reply sessionid:0x100005496c70006, packet:: clientPath:null serverPath:null finished:false header:: 16,1  replyHeader:: 16,85,-110  request:: '/dubbo/com.Quantum.service.DemoService,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 15:00:33 :Reading reply sessionid:0x100005496c70006, packet:: clientPath:null serverPath:null finished:false header:: 17,1  replyHeader:: 17,86,-110  request:: '/dubbo/com.Quantum.service.DemoService/routers,,v{s{31,s{'world,'anyone}}},0  response::  
+[DEBUG]_2018-01-09 15:00:33 :Reading reply sessionid:0x100005496c70006, packet:: clientPath:null serverPath:null finished:false header:: 18,3  replyHeader:: 18,86,0  request:: '/dubbo/com.Quantum.service.DemoService/routers,T  response:: s{22,22,1515480399270,1515480399270,0,0,0,0,0,0,22} 
+[DEBUG]_2018-01-09 15:00:33 :Reading reply sessionid:0x100005496c70006, packet:: clientPath:null serverPath:null finished:false header:: 19,8  replyHeader:: 19,86,0  request:: '/dubbo/com.Quantum.service.DemoService/routers,T  response:: v{} 
+[INFO ]_2018-01-09 15:00:33 : [DUBBO] Notify urls for subscribe url consumer://192.168.88.11/com.Quantum.service.DemoService?application=demotest-consumer&category=providers,configurators,routers&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=2676&side=consumer&timestamp=1515481231536, urls: [dubbo://192.168.88.11:20880/com.Quantum.service.DemoService?anyhost=true&application=demotest-provider&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=1912&side=provider&timestamp=1515481216955, empty://192.168.88.11/com.Quantum.service.DemoService?application=demotest-consumer&category=configurators&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=2676&side=consumer&timestamp=1515481231536, empty://192.168.88.11/com.Quantum.service.DemoService?application=demotest-consumer&category=routers&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=2676&side=consumer&timestamp=1515481231536], dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 15:00:33 : [DUBBO] package com.alibaba.dubbo.remoting;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Transporter$Adpative implements com.alibaba.dubbo.remoting.Transporter {
+public com.alibaba.dubbo.remoting.Client connect(com.alibaba.dubbo.common.URL arg0, com.alibaba.dubbo.remoting.ChannelHandler arg1) throws com.alibaba.dubbo.common.URL {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("client", url.getParameter("transporter", "netty"));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.Transporter) name from url(" + url.toString() + ") use keys([client, transporter])");
+com.alibaba.dubbo.remoting.Transporter extension = (com.alibaba.dubbo.remoting.Transporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Transporter.class).getExtension(extName);
+return extension.connect(arg0, arg1);
+}
+public com.alibaba.dubbo.remoting.Server bind(com.alibaba.dubbo.common.URL arg0, com.alibaba.dubbo.remoting.ChannelHandler arg1) throws com.alibaba.dubbo.common.URL {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("server", url.getParameter("transporter", "netty"));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.Transporter) name from url(" + url.toString() + ") use keys([server, transporter])");
+com.alibaba.dubbo.remoting.Transporter extension = (com.alibaba.dubbo.remoting.Transporter)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Transporter.class).getExtension(extName);
+return extension.bind(arg0, arg1);
+}
+}, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 15:00:33 : [DUBBO] package com.alibaba.dubbo.remoting;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Dispatcher$Adpative implements com.alibaba.dubbo.remoting.Dispatcher {
+public com.alibaba.dubbo.remoting.ChannelHandler dispatch(com.alibaba.dubbo.remoting.ChannelHandler arg0, com.alibaba.dubbo.common.URL arg1) {
+if (arg1 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg1;
+String extName = url.getParameter("dispatcher", url.getParameter("dispather", url.getParameter("channel.handler", "all")));
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.remoting.Dispatcher) name from url(" + url.toString() + ") use keys([dispatcher, dispather, channel.handler])");
+com.alibaba.dubbo.remoting.Dispatcher extension = (com.alibaba.dubbo.remoting.Dispatcher)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.remoting.Dispatcher.class).getExtension(extName);
+return extension.dispatch(arg0, arg1);
+}
+}, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 15:00:34 : [DUBBO] package com.alibaba.dubbo.common.threadpool;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class ThreadPool$Adpative implements com.alibaba.dubbo.common.threadpool.ThreadPool {
+public java.util.concurrent.Executor getExecutor(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("threadpool", "fixed");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.common.threadpool.ThreadPool) name from url(" + url.toString() + ") use keys([threadpool])");
+com.alibaba.dubbo.common.threadpool.ThreadPool extension = (com.alibaba.dubbo.common.threadpool.ThreadPool)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.common.threadpool.ThreadPool.class).getExtension(extName);
+return extension.getExecutor(arg0);
+}
+}, dubbo version: 2.5.3, current host: 192.168.88.11
+[INFO ]_2018-01-09 15:00:34 : [DUBBO] Successed connect to server /192.168.88.11:20880 from NettyClient 192.168.88.11 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x9479f9e0, /192.168.88.11:20332 => /192.168.88.11:20880]], dubbo version: 2.5.3, current host: 192.168.88.11
+[INFO ]_2018-01-09 15:00:34 : [DUBBO] Start NettyClient SC-201708242216/192.168.88.11 connect to the server /192.168.88.11:20880, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 15:00:34 : [DUBBO] package com.alibaba.dubbo.cache;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class CacheFactory$Adpative implements com.alibaba.dubbo.cache.CacheFactory {
+public com.alibaba.dubbo.cache.Cache getCache(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("cache", "lru");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.cache.CacheFactory) name from url(" + url.toString() + ") use keys([cache])");
+com.alibaba.dubbo.cache.CacheFactory extension = (com.alibaba.dubbo.cache.CacheFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.cache.CacheFactory.class).getExtension(extName);
+return extension.getCache(arg0);
+}
+}, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 15:00:34 : [DUBBO] package com.alibaba.dubbo.monitor;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class MonitorFactory$Adpative implements com.alibaba.dubbo.monitor.MonitorFactory {
+public com.alibaba.dubbo.monitor.Monitor getMonitor(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.monitor.MonitorFactory) name from url(" + url.toString() + ") use keys([protocol])");
+com.alibaba.dubbo.monitor.MonitorFactory extension = (com.alibaba.dubbo.monitor.MonitorFactory)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.monitor.MonitorFactory.class).getExtension(extName);
+return extension.getMonitor(arg0);
+}
+}, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 15:00:34 : [DUBBO] package com.alibaba.dubbo.validation;
+import com.alibaba.dubbo.common.extension.ExtensionLoader;
+public class Validation$Adpative implements com.alibaba.dubbo.validation.Validation {
+public com.alibaba.dubbo.validation.Validator getValidator(com.alibaba.dubbo.common.URL arg0) {
+if (arg0 == null) throw new IllegalArgumentException("url == null");
+com.alibaba.dubbo.common.URL url = arg0;
+String extName = url.getParameter("validation", "jvalidation");
+if(extName == null) throw new IllegalStateException("Fail to get extension(com.alibaba.dubbo.validation.Validation) name from url(" + url.toString() + ") use keys([validation])");
+com.alibaba.dubbo.validation.Validation extension = (com.alibaba.dubbo.validation.Validation)ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.validation.Validation.class).getExtension(extName);
+return extension.getValidator(arg0);
+}
+}, dubbo version: 2.5.3, current host: 192.168.88.11
+[INFO ]_2018-01-09 15:00:34 : [DUBBO] Refer dubbo service com.Quantum.service.DemoService from url zookeeper://localhost:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=demotest-consumer&check=false&dubbo=2.5.3&interface=com.Quantum.service.DemoService&methods=getPermissions&organization=dubbox&owner=programmer&pid=2676&side=consumer&timestamp=1515481231536, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 15:00:35 : [DUBBO] Decode decodeable message com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 15:00:43 :Got ping response for sessionid: 0x100005496c70006 after 0ms
+[DEBUG]_2018-01-09 15:00:53 :Got ping response for sessionid: 0x100005496c70006 after 1ms
+[DEBUG]_2018-01-09 15:01:03 :Got ping response for sessionid: 0x100005496c70006 after 1ms
+[DEBUG]_2018-01-09 15:01:13 :Got ping response for sessionid: 0x100005496c70006 after 0ms
+[DEBUG]_2018-01-09 15:01:23 :Got ping response for sessionid: 0x100005496c70006 after 0ms
+[DEBUG]_2018-01-09 15:01:33 :Got ping response for sessionid: 0x100005496c70006 after 0ms
+[DEBUG]_2018-01-09 15:01:43 :Got ping response for sessionid: 0x100005496c70006 after 0ms
+[DEBUG]_2018-01-09 15:01:53 :Got ping response for sessionid: 0x100005496c70006 after 1ms
+[DEBUG]_2018-01-09 15:02:03 :Got ping response for sessionid: 0x100005496c70006 after 0ms
+[DEBUG]_2018-01-09 15:02:13 :Got ping response for sessionid: 0x100005496c70006 after 0ms
+[DEBUG]_2018-01-09 15:02:17 : [DUBBO] Received heartbeat from remote channel /192.168.88.11:20880, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 15:02:23 :Got ping response for sessionid: 0x100005496c70006 after 0ms
+[DEBUG]_2018-01-09 15:02:33 :Got ping response for sessionid: 0x100005496c70006 after 0ms
+[DEBUG]_2018-01-09 15:02:43 :Got ping response for sessionid: 0x100005496c70006 after 0ms
+[DEBUG]_2018-01-09 15:02:53 :Got ping response for sessionid: 0x100005496c70006 after 0ms
+[DEBUG]_2018-01-09 15:03:03 :Got ping response for sessionid: 0x100005496c70006 after 0ms
+[DEBUG]_2018-01-09 15:03:13 :Got ping response for sessionid: 0x100005496c70006 after 0ms
+[DEBUG]_2018-01-09 15:03:18 : [DUBBO] Received heartbeat from remote channel /192.168.88.11:20880, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 15:03:23 :Got ping response for sessionid: 0x100005496c70006 after 1ms
+[DEBUG]_2018-01-09 15:03:33 :Got ping response for sessionid: 0x100005496c70006 after 0ms
+[DEBUG]_2018-01-09 15:03:43 :Got ping response for sessionid: 0x100005496c70006 after 0ms
+[DEBUG]_2018-01-09 15:03:53 :Got ping response for sessionid: 0x100005496c70006 after 1ms
+[DEBUG]_2018-01-09 15:04:03 :Got ping response for sessionid: 0x100005496c70006 after 1ms
+[DEBUG]_2018-01-09 15:04:13 :Got ping response for sessionid: 0x100005496c70006 after 0ms
+[DEBUG]_2018-01-09 15:04:18 : [DUBBO] Received heartbeat from remote channel /192.168.88.11:20880, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.5.3, current host: 192.168.88.11
+[DEBUG]_2018-01-09 15:04:23 :Got ping response for sessionid: 0x100005496c70006 after 0ms
+[DEBUG]_2018-01-09 15:04:33 :Got ping response for sessionid: 0x100005496c70006 after 0ms
+[DEBUG]_2018-01-09 15:04:43 :Got ping response for sessionid: 0x100005496c70006 after 0ms
+[DEBUG]_2018-01-09 15:04:53 :Got ping response for sessionid: 0x100005496c70006 after 0ms
+[DEBUG]_2018-01-09 15:05:03 :Got ping response for sessionid: 0x100005496c70006 after 0ms
+[DEBUG]_2018-01-09 15:05:13 :Got ping response for sessionid: 0x100005496c70006 after 1ms
